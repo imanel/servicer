@@ -37,7 +37,9 @@ module Servicer
     end
 
     # Main call. Overwrite this.
-    def call; end
+    def call
+      raise NotImplementedError
+    end
 
     private
 
